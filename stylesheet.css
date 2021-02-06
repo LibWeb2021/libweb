@@ -1,0 +1,91 @@
+body {
+	background-color: #4568FF;
+	font-family: "New Times Roman", Georgia;
+	font-size: 16px;
+	margin: 5% 2% 5% 2%;
+}
+
+#page {
+	background-color: white;
+	border: solid;
+}
+
+#topStrip {
+	background-color: #BCA0DC;
+	overflow: auto;
+	border: solid;
+}
+
+#lnTitle {
+	float: left;
+	font-weight: bold;
+	background-color: black;
+	padding: 10px;
+	color: #FFD700;
+}
+
+#navBar {
+	float:left;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#navBar li {
+	float: left;
+	padding: 10px;
+	font-size: 32px;
+	background-color: #BCA0DC;
+	color: orange;
+	text-decoration: none;
+	list-style: none;
+}
+
+#navBar li:hover {
+	font-weight: bold;
+	/*background-color: #00FF7F;*/
+	cursor: pointer;
+	text-decoration: none !important;
+}
+
+#navBar a:link {
+	color: black;
+}
+
+#navBar a:visited {
+	color: black;
+}
+
+#navBar a:hover {
+	color: black;
+}
+
+.Heading {
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 10px;
+	text-align: left;
+	width: 80%;
+	background-color: white;
+	color: black;
+}
+
+.Paragraph {
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 10px;
+	text-align: left;
+	width: 80%;
+	background-color: white;
+	color: black;
+	border-left: solid;
+	border-right: solid;
+	overflow: auto;
+	margin-bottom: 50px;
+}
+
+.Paragraph p:hover {
+	color: orange;
+}
+
