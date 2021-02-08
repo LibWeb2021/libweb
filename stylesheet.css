@@ -89,3 +89,11 @@ body {
 	color: orange;
 }
 
+.leftColumn {
+	float: left;
+}
+
+.rightColumn {
+	float: right;
+}
+
